@@ -1,7 +1,8 @@
 var socket = io();
 
 let btn=document.getElementById('btn');
-btn.onClick=function exec(){
+btn.onclick=function exec(){
+    console.log('shubh');
     socket.emit('from_client')
     
 }
