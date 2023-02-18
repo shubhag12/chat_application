@@ -10,3 +10,10 @@ whener you have to build front we can directly make through ejs
 only issue is that it is server side rendered frontend 
 .emit does not necessary needs a callback
 .on needs a call back
+
+
+power of sockets in real time without refreshing anything we were able to send message from one pesron to another person
+
+used case of sockets
+new notification in instagram
+it automatically popups the new notification
