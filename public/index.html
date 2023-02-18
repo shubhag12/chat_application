@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>chat app</title>
-    
+
 </head>
+
 <body>
     <h1>chat app using socket</h1>
-
-    <input type="text" id="newmsg">
+    <input type="text" id="roomid" placeholder="roomid ..">
+    <input type="text" id="userid" placeholder="userid ..">
+    <input type="text" id="newmsg" placeholder="message ..">
 
     <button id="btn"> send </button>
     <ul id="msglist">
-            
+
     </ul>
 
 
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>
